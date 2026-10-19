@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "atlas": "atlas.webp",
+  "profile": "profile.webp",
+  "front": "front.webp",
+  "width": 384,
+  "height": 448,
+  "columns": 6,
+  "frameCount": 30,
+  "pivot": [
+    0.5,
+    0.027
+  ],
+  "source": {
+    "kind": "generated-product-video",
+    "provider": "LTX",
+    "model": "LTX-2.5 Pro",
+    "sha256": "8cc963dc1ca1f0830d98da3e20aa0a9e7e6f66a927cc54f9f883cc84c57ca5cd",
+    "selectedSeconds": [
+      0,
+      4.2
+    ],
+    "artwork": "User supplied AI-generated print",
+    "hangerColorGraded": true,
+    "registeredApex": true
+  },
+  "processing": {
+    "key": "green",
+    "crop": [
+      486,
+      58,
+      1418,
+      1038
+    ],
+    "scale": 0.37130801687763715,
+    "registered": false,
+    "selectedIndices": [
+      0,
+      2,
+      3,
+      5,
+      7,
+      8,
+      10,
+      12,
+      14,
+      15,
+      17,
+      19,
+      20,
+      22,
+      24,
+      25,
+      27,
+      29,
+      30,
+      32,
+      34,
+      35,
+      37,
+      39,
+      41,
+      42,
+      44,
+      46,
+      47,
+      49
+    ],
+    "endpointPixels": "Decoded atlas cells, no independent idle plate"
+  },
+  "bytes": 468828
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Amir Mušić",
+  "subtitle": "T-shirt studies",
+  "timing": {"intentMs": 80, "turnMs": 360, "returnMs": 280, "endpointWindow": 0.3},
+  "items": [
+    {"id": "lake-white", "name": "Alpine lake", "type": "Oversized cotton T-shirt", "color": "White", "description": "A full-color alpine landscape on white cotton. Original print concept supplied by Amir; plain back.", "previewLabel":"Generated garment concept", "motion": "fixtures/lake-white-v3/manifest.json", "back": "fixtures/lake-white-v3/back.webp"},
+    {"id": "cards-pink", "name": "Wild cards", "type": "Oversized cotton T-shirt", "color": "Pastel pink", "description": "Two black line-art cards printed on pastel pink cotton. Original print concept supplied by Amir; plain back.", "previewLabel":"Generated garment concept", "motion": "fixtures/cards-pink-v3/manifest.json", "back": "fixtures/cards-pink-v3/back.webp"}
+  ]
+}

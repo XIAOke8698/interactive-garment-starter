@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Two original T-shirt concepts, animated with generated product video and a reversible frame controller. An experiment by Amir Mušić.">
+  <meta name="theme-color" content="#f5f3ee">
+  <title>T-shirt studies · Amir Mušić</title>
+  <link rel="stylesheet" href="src/style.css">
+  <script type="module" src="src/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#showcase">Skip to garments</a>
+  <header class="site-header">
+    <a class="wordmark" href="#showcase" id="site-title">Amir Mušić<span aria-hidden="true">↗</span></a>
+    <span class="edition">Garment studies / 01</span>
+    <button class="text-button" id="about-open">How it works <span aria-hidden="true">↗</span></button>
+  </header>
+  <main id="showcase">
+    <div class="intro">
+      <p class="eyebrow">Two original print concepts</p>
+      <h1>T-shirt studies</h1>
+      <p class="intro-note" id="interaction-hint">Hover to turn a garment · Click to inspect</p>
+    </div>
+    <div class="rack" id="rack" aria-label="Interactive garment collection" aria-busy="true">
+      <div class="rail" aria-hidden="true"></div>
+      <div class="rack-items" id="rack-items"></div>
+      <div class="load-state" id="load-state" role="status"><span id="load-text">Preparing previews</span><span id="load-counter">0 / 2</span></div>
+    </div>
+    <div class="collection-bar">
+      <div class="selected-info" aria-live="polite"><span id="selected-index">01 / 02</span><h2 id="selected-name">Alpine lake</h2><p id="selected-type">Oversized cotton T-shirt · White</p></div>
+      <div class="browse-controls"><button id="previous" class="arrow-button" disabled aria-label="Previous garment">←</button><button id="next" class="arrow-button" disabled aria-label="Next garment">→</button><button id="inspect" class="inspect-button" disabled>Inspect garment <span aria-hidden="true">↗</span></button></div>
+    </div>
+    <p class="fixture-note">Original artwork → garment concepts → generated rotation → interactive storefront</p>
+  </main>
+  <footer class="site-footer"><span>LTX-2.5 Pro + Kling 3.0 · Prepared frame sequences</span><a href="README.md" target="_blank" rel="noopener">Read the quick start ↗</a><span>By Amir Mušić</span></footer>
+  <dialog id="product-dialog" aria-labelledby="product-title">
+    <div class="dialog-header"><span class="eyebrow">Product view</span><button class="close-button" data-close="product-dialog" aria-label="Close product view">Close ×</button></div>
+    <div class="product-layout"><div class="detail-stage"><img id="detail-image" alt="" width="384" height="448"></div><div class="product-copy"><p class="eyebrow" id="product-type"></p><h2 id="product-title"></h2><p id="product-description"></p><dl><div><dt>Color</dt><dd id="product-color"></dd></div><div><dt>Preview</dt><dd id="product-preview">Generated garment concept</dd></div></dl><div class="view-tabs" role="group" aria-label="Product side"><button id="view-front" aria-pressed="true">Front</button><button id="view-back" aria-pressed="false">Back</button></div><a id="product-link" hidden target="_blank" rel="noopener">View this product ↗</a><p class="detail-note">The rail rotates on hover. This detail view uses static front and back images; it does not simulate an unseen product side.</p></div></div>
+  </dialog>
+  <dialog id="about-dialog" aria-labelledby="about-title"><div class="dialog-header"><span class="eyebrow">The workflow</span><button class="close-button" data-close="about-dialog" aria-label="Close explanation">Close ×</button></div><div class="about-copy"><h2 id="about-title">From original artwork<br>to a working storefront</h2><p>Two prints supplied by Amir became photographic garment concepts. Exact source graphics were composited onto generated cotton bases, then front and strict-profile anchors guided the video turns.</p><p>The white shirt uses LTX-2.5 Pro. The pink shirt uses Kling 3.0 through Pika. Selected footage was keyed, registered at its wooden apex and packed into transparent frame atlases.</p><p>Hover starts a short turn. Leaving reverses it from its current frame. The wire stays fixed, while neighboring garments slide aside at full opacity. On touch screens, swipe the rail and tap to inspect.</p><a href="README.md" target="_blank" rel="noopener">Open the quick start ↗</a></div></dialog>
+</body>
+</html>

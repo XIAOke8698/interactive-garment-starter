@@ -1,0 +1,10 @@
+{
+  "image_uri": "examples/anchors/profile.png",
+  "last_frame_uri": "examples/anchors/front.png",
+  "prompt": "Product video, locked orthographic camera and constant neutral studio lighting. One unbranded off-white cotton T-shirt on a thin wooden hanger starts in exact side profile on a perfectly uniform bright green background. The garment and wooden shoulders rotate together exactly one quarter turn to face the camera, then hold. Start at the first image and finish at the last image. Keep the top wooden apex fixed, the entire garment inside the frame, the same scale, color, silhouette and light. Smooth steady rotation only. No full spin, no return, no pendulum swing, no camera movement, no new artwork, no metal hook, no rail, no text, no green reflection. Preserve the actual garment details in the input images.",
+  "model": "ltx-2-5-pro",
+  "duration": 6,
+  "resolution": "1920x1080",
+  "fps": 50,
+  "generate_audio": false
+}

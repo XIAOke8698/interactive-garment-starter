@@ -1,0 +1,17 @@
+{
+  "name": "interactive-garment-starter",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/runtime.test.mjs tests/server.test.mjs tests/ltx.test.mjs",
+    "audit": "node scripts/audit.mjs"
+  }
+}

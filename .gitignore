@@ -1,0 +1,13 @@
+node_modules/
+dist/
+generated/
+inputs/
+work/
+review/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

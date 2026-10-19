@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "atlas": "atlas.webp",
+  "profile": "profile.webp",
+  "front": "front.webp",
+  "width": 384,
+  "height": 448,
+  "frameCount": 30,
+  "columns": 6,
+  "pivot": [
+    0.5,
+    0.026785714285714284
+  ],
+  "source": {
+    "kind": "original-procedural-illustration",
+    "generator": "pipeline/make-fixtures.py",
+    "license": "MIT",
+    "notAiGenerated": true,
+    "notProductPhotography": true
+  }
+}

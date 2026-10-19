@@ -1,0 +1,144 @@
+{
+  "version": 2,
+  "externalImagesUsed": true,
+  "thirdPartyBrandAssetsUsed": false,
+  "source": "User-supplied AI-generated original artwork; image-tool garment concepts; LTX-2.5 Pro and Kling 3.0 video; retained procedural test fixtures",
+  "mediaReleaseStatus": "Awaiting owner review and public-release license approval",
+  "items": [
+    {
+      "file": "public/fixtures/cards-pink-v3/atlas.webp",
+      "bytes": 368874,
+      "sha256": "6a2c5a63f874d80019e37d1a2e42c0a409b2fb3269ab01ee50609d5ac92f2a6b"
+    },
+    {
+      "file": "public/fixtures/cards-pink-v3/back.webp",
+      "bytes": 20556,
+      "sha256": "0bb56bb81ee2398d6722676ab39cf07df48133fad7402b946efcd2909e8f176d"
+    },
+    {
+      "file": "public/fixtures/cards-pink-v3/front.webp",
+      "bytes": 72934,
+      "sha256": "2628c874b22d8a5d3c1ede5b725358b52514f76edebc94b62a07849301e24c6d"
+    },
+    {
+      "file": "public/fixtures/cards-pink-v3/key-review.jpg",
+      "bytes": 236030,
+      "sha256": "17af70220c63dd84f0c02f930df56a9e6002f0041c8b70ea8d1c6626549452a6"
+    },
+    {
+      "file": "public/fixtures/cards-pink-v3/manifest.json",
+      "bytes": 1208,
+      "sha256": "051879e7ad680b368477b94f3d6227228fd193e2f7e4098dccde231b74514812"
+    },
+    {
+      "file": "public/fixtures/cards-pink-v3/profile.webp",
+      "bytes": 26916,
+      "sha256": "5476c27ee46f5055da41638693d4c1341dc5e50e51f3297e7d070890dfd390b6"
+    },
+    {
+      "file": "public/fixtures/crew/atlas.webp",
+      "bytes": 239288,
+      "sha256": "0f03cdefb8a52c50f0a6e8108d7548a266c0dbafe412152d661bcdff48c9b1ad"
+    },
+    {
+      "file": "public/fixtures/crew/back.webp",
+      "bytes": 25712,
+      "sha256": "37a2129b4797383bba9fd368b02a1fe72c8b59f78790fa7104069262fe586a15"
+    },
+    {
+      "file": "public/fixtures/crew/front.webp",
+      "bytes": 35570,
+      "sha256": "20665d1dc2bd3d76b8fc7c4a870546382547a6fcf40f98eb434f20c8e66958a5"
+    },
+    {
+      "file": "public/fixtures/crew/manifest.json",
+      "bytes": 437,
+      "sha256": "a95a257ba4386e358c4f2051b05645996032852e3491ed35c8ca42d4b055b818"
+    },
+    {
+      "file": "public/fixtures/crew/profile.webp",
+      "bytes": 8144,
+      "sha256": "28c8562b4a9f3e5731e2f4345daec040ab5a41246bd86b3355d644ee0cf0564d"
+    },
+    {
+      "file": "public/fixtures/hoodie/atlas.webp",
+      "bytes": 296210,
+      "sha256": "2cd70abecbcba81a5f6ac1bae95f3514c1255f26733c370f8ba4ca8ab9bb58ab"
+    },
+    {
+      "file": "public/fixtures/hoodie/back.webp",
+      "bytes": 28570,
+      "sha256": "ea69e83da44ac6590a95cc6ba23bfaa07da0635c21f2cc0bf84242f3cfecdb72"
+    },
+    {
+      "file": "public/fixtures/hoodie/front.webp",
+      "bytes": 50550,
+      "sha256": "c5c9763d0cc79703b7810d2123ec54da4ed7c26038bcfce6049311eb52fa21d5"
+    },
+    {
+      "file": "public/fixtures/hoodie/manifest.json",
+      "bytes": 437,
+      "sha256": "a95a257ba4386e358c4f2051b05645996032852e3491ed35c8ca42d4b055b818"
+    },
+    {
+      "file": "public/fixtures/hoodie/profile.webp",
+      "bytes": 13500,
+      "sha256": "482d3b116a1a52aa8e1f1e3bec01c4d847f97b80ff887ad6195d1677d86301db"
+    },
+    {
+      "file": "public/fixtures/lake-white-v3/atlas.webp",
+      "bytes": 468828,
+      "sha256": "d807c656770efcf251a0f639a49ce390d7c4db40272867cb540077a93d488887"
+    },
+    {
+      "file": "public/fixtures/lake-white-v3/back.webp",
+      "bytes": 12520,
+      "sha256": "9384ddc9bd3613c8a978f11bd7794a95ea4a054acdb8d2ccf7b7383e54575a07"
+    },
+    {
+      "file": "public/fixtures/lake-white-v3/front.webp",
+      "bytes": 81446,
+      "sha256": "5a6192e713379dd3ff639e4bfd39856fa534513efcb6522b4c14a1d29eb7f4ee"
+    },
+    {
+      "file": "public/fixtures/lake-white-v3/key-review.jpg",
+      "bytes": 262416,
+      "sha256": "2e915d249b54059e0aaa7aa23593545fc0d95c74731b24a832f133d58d1132fb"
+    },
+    {
+      "file": "public/fixtures/lake-white-v3/manifest.json",
+      "bytes": 1209,
+      "sha256": "31517cca649e28fc04ee0bda3cc5466ab49dd86ecec8b5c6004986682f9bebe3"
+    },
+    {
+      "file": "public/fixtures/lake-white-v3/profile.webp",
+      "bytes": 18238,
+      "sha256": "af72253023d6705c4a49cb6fbc532fe3fa66b23309797fbd67d798ae29ad43e8"
+    },
+    {
+      "file": "public/fixtures/tee/atlas.webp",
+      "bytes": 204052,
+      "sha256": "1ff70b15194e8a2dd9969279767854ccca124b0a9aefe0ed5ba8f1032f4d2f1c"
+    },
+    {
+      "file": "public/fixtures/tee/back.webp",
+      "bytes": 25102,
+      "sha256": "234e94717b842e6a884c8fc95e3dd9ac5be51b8820b552af3547b456a9382b0d"
+    },
+    {
+      "file": "public/fixtures/tee/front.webp",
+      "bytes": 29556,
+      "sha256": "9b3d6099a084892881816e983f41b377a1358636366549720539e2d41632dcd4"
+    },
+    {
+      "file": "public/fixtures/tee/manifest.json",
+      "bytes": 437,
+      "sha256": "a95a257ba4386e358c4f2051b05645996032852e3491ed35c8ca42d4b055b818"
+    },
+    {
+      "file": "public/fixtures/tee/profile.webp",
+      "bytes": 7574,
+      "sha256": "923bf8fde165c29e09a4b74188369759eaf5c7ae6906f0c76715b04a60a2800d"
+    }
+  ]
+}
