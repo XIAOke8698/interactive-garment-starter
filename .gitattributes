@@ -1,0 +1,4 @@
+* text=auto
+# Fixture provenance records exact bytes, including manifest line endings.
+public/fixtures/** -text
+examples/anchors/** -text
