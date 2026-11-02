@@ -226,13 +226,13 @@ canvas.addEventListener('pointermove', event => {
   const {width, height} = cssSize();
   const pointer = pointerToNormalised(event);
   state.pointer = [pointer[0] - 0.5, pointer[1] - 0.5];
+  markActivity();
 
   if (!state.drag) {
     if (reduced.matches) draw();
     return;
   }
   if (event.pointerId !== state.drag.id) return;
-  markActivity();
 
   const now = performance.now();
   const deltaX = event.clientX - state.drag.lastX;
