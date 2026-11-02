@@ -8,7 +8,7 @@ export function publicFile(url,base=root){
   let pathname;try{pathname=decodeURIComponent(new URL(url,'http://localhost').pathname);}catch{return null;}
   if(pathname.includes('\\')||pathname.includes('\0')||pathname.split('/').includes('..'))return null;
   if(pathname==='/')pathname='/index.html';
-  const allowed=/^\/(index\.html|(?:README|START-HERE|AGENTS|CLAUDE|LICENSE-ASSETS|THIRD_PARTY_NOTICES)\.md|LICENSE|(?:docs|prompts)\/[a-z0-9-]+\.md|config\/catalog\.json|src\/[a-z0-9-]+\.(js|css)|public\/(fixtures\/[a-z0-9/-]+\.(webp|json|jpg)|fonts\/[a-zA-Z0-9.-]+\.(ttf|txt)))$/;
+  const allowed=/^\/(index\.html|rack\.html|(?:README|START-HERE|AGENTS|CLAUDE|LICENSE-ASSETS|THIRD_PARTY_NOTICES)\.md|LICENSE|(?:docs|prompts)\/[a-z0-9-]+\.md|config\/catalog\.json|src\/[a-z0-9-]+\.(js|css)|public\/(fixtures\/[a-z0-9/-]+\.(webp|json|jpg)|fonts\/[a-zA-Z0-9.-]+\.(ttf|txt)))$/;
   if(!allowed.test(pathname))return null;
   const file=path.resolve(base,'.'+pathname);if(!file.startsWith(base+path.sep))return null;return file;
 }

@@ -1,0 +1,60 @@
+{
+  "preset": "leather",
+  "algorithm": "fft-band-limited-voronoi-ridge",
+  "algorithmVersion": "1.0.0",
+  "textureSize": 1024,
+  "seed": 20261102,
+  "tileable": true,
+  "derivedFrom": "procedural-synthesis",
+  "note": "程序化生成的粒面与法线，非实拍皮革纹理。",
+  "files": {
+    "grain": {
+      "path": "leather-grain.webp",
+      "bytes": 361488
+    },
+    "normal": {
+      "path": "leather-normal.webp",
+      "bytes": 405412
+    },
+    "swatch": {
+      "path": "leather-swatch.webp",
+      "bytes": 135546
+    }
+  },
+  "details": [
+    {
+      "id": "collar",
+      "label": "领口",
+      "x": 0.5,
+      "y": 0.11,
+      "crop": "fixtures/tee/details/collar.webp",
+      "note": "领口包边与双针车线，皮革此处做了削薄处理。",
+      "source": "atlas-frame-29-upscaled-2x",
+      "bytes": 4966
+    },
+    {
+      "id": "cuff",
+      "label": "袖口",
+      "x": 0.2075,
+      "y": 0.385,
+      "crop": "fixtures/tee/details/cuff.webp",
+      "note": "袖口折边高度与车线间距，决定了硬挺感。",
+      "source": "atlas-frame-29-upscaled-2x",
+      "bytes": 2204
+    },
+    {
+      "id": "hem",
+      "label": "下摆",
+      "x": 0.5,
+      "y": 0.84,
+      "crop": "fixtures/tee/details/hem.webp",
+      "note": "下摆车线与起皱走向，皮革边缘做封边。",
+      "source": "atlas-frame-29-upscaled-2x",
+      "bytes": 1184
+    }
+  ],
+  "digests": {
+    "grain": "2ffefb2bd9ecde01b2930b1b8e2a30bdcd700b3a0b37723f8726015e2062f937",
+    "normal": "ade6c5b71d24b81829403b9cf719e99a8e248049dfdeaf78a835ac706fe5992b"
+  }
+}

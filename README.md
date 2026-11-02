@@ -67,14 +67,31 @@ node scripts/serve.mjs
 Checks and static build:
 
 ```sh
-node --test tests/runtime.test.mjs tests/server.test.mjs tests/ltx.test.mjs
+node --test tests/runtime.test.mjs tests/server.test.mjs tests/stage.test.mjs tests/ltx.test.mjs
 node scripts/audit.mjs
 node scripts/build.mjs
+```
+
+Regenerate the material textures for the immersive stage (Python 3.10+, Pillow, NumPy):
+
+```sh
+python pipeline/textures.py --item tee --material leather
 ```
 
 For optional footage processing, use Python 3.10+, Pillow, NumPy and FFmpeg/ffprobe. The agent setup instructions cover a project-local environment and tool discovery. Deploy only `dist/`; keep source photos, keys and intermediate generations private.
 
 </details>
+
+## Two front ends
+
+| page | experience |
+| --- | --- |
+| `index.html` | **Immersive material stage** — one garment filling the viewport, drag to turn, pointer-anchored zoom to 3x, three light positions, and fabric macro details. Renders fabric grain, specular response and cloth micro-motion in a WebGL shader on top of the frame atlas, so zoomed-in detail stays sharp. |
+| `rack.html` | The original **rack experience** — hover to turn, click to inspect, swipe on touch. Unchanged. |
+
+Both read the same `config/catalog.json`. The immersive stage shows the item named by `stage.item`; the rack shows every item.
+
+Read [docs/stage.md](docs/stage.md) for the architecture, the data contract, how to add a fabric, and the honest limits — including why a real 360° turntable is not possible with the bundled footage.
 
 The [first-run verification](docs/first-run-verification.md) records what was tested and what remains environment-dependent.
 

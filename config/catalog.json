@@ -1,9 +1,90 @@
 {
-  "title": "Amir Mušić",
-  "subtitle": "T-shirt studies",
+  "title": "Garment study",
+  "subtitle": "Material study 001",
+  "stage": {"item": "tee"},
   "timing": {"intentMs": 80, "turnMs": 360, "returnMs": 280, "endpointWindow": 0.3},
   "items": [
-    {"id": "lake-white", "name": "Alpine lake", "type": "Oversized cotton T-shirt", "color": "White", "description": "A full-color alpine landscape on white cotton. Original print concept supplied by Amir; plain back.", "previewLabel":"Generated garment concept", "motion": "fixtures/lake-white-v3/manifest.json", "back": "fixtures/lake-white-v3/back.webp"},
-    {"id": "cards-pink", "name": "Wild cards", "type": "Oversized cotton T-shirt", "color": "Pastel pink", "description": "Two black line-art cards printed on pastel pink cotton. Original print concept supplied by Amir; plain back.", "previewLabel":"Generated garment concept", "motion": "fixtures/cards-pink-v3/manifest.json", "back": "fixtures/cards-pink-v3/back.webp"}
+    {
+      "id": "tee",
+      "name": "Leather tee",
+      "type": "小羊皮短袖",
+      "color": "Espresso",
+      "description": "整张小羊皮裁制的落肩短袖，半苯胺处理。粒面随光位变化，柔软但保持硬挺肩线。",
+      "motion": "fixtures/tee/manifest.json",
+      "back": "fixtures/tee/back.webp",
+      "mirror": true,
+      "material": {
+        "preset": "leather",
+        "tint": "#42301f",
+        "grain": "fixtures/tee/materials/leather/leather-grain.webp",
+        "normal": "fixtures/tee/materials/leather/leather-normal.webp"
+      },
+      "fabric": {
+        "composition": "100% 小羊皮 · 全粒面",
+        "weightGsm": 780,
+        "thickness": "0.9 mm",
+        "finish": "半苯胺（Semi-aniline）",
+        "drape": "硬挺",
+        "care": "专业皮革护理，避水避晒，勿折叠长期存放"
+      },
+      "details": [
+        {
+          "id": "collar",
+          "label": "领口",
+          "x": 0.5,
+          "y": 0.145,
+          "crop": "fixtures/tee/details/collar.webp",
+          "note": "领口包边与双针车线，皮革此处做了削薄处理，才不会在脖子上拱起。",
+          "source": "atlas-frame-29-upscaled-2x"
+        },
+        {
+          "id": "cuff",
+          "label": "袖口",
+          "x": 0.185,
+          "y": 0.375,
+          "crop": "fixtures/tee/details/cuff.webp",
+          "note": "袖口折边高度与车线间距决定了硬挺感，也是皮革短袖最难做的部位。",
+          "source": "atlas-frame-29-upscaled-2x"
+        },
+        {
+          "id": "hem",
+          "label": "下摆",
+          "x": 0.5,
+          "y": 0.862,
+          "crop": "fixtures/tee/details/hem.webp",
+          "note": "下摆车线与起皱走向，皮革边缘做了封边处理。",
+          "source": "atlas-frame-29-upscaled-2x"
+        },
+        {
+          "id": "grain",
+          "label": "皮革粒面",
+          "x": 0.62,
+          "y": 0.55,
+          "crop": "fixtures/tee/materials/leather/leather-swatch.webp",
+          "note": "半苯胺小羊皮的粒面：鹅卵石状凸起，光从左上方斜切过来，粒面才有立体感。样片为程序化生成，真实粒面属下一轮素材升级项。",
+          "source": "procedural-synthesis"
+        }
+      ]
+    },
+    {
+      "id": "lake-white",
+      "name": "Alpine lake",
+      "type": "Oversized cotton T-shirt",
+      "color": "White",
+      "description": "A full-color alpine landscape on white cotton. Original print concept supplied by Amir; plain back.",
+      "previewLabel": "Generated garment concept",
+      "motion": "fixtures/lake-white-v3/manifest.json",
+      "back": "fixtures/lake-white-v3/back.webp"
+    },
+    {
+      "id": "cards-pink",
+      "name": "Wild cards",
+      "type": "Oversized cotton T-shirt",
+      "color": "Pastel pink",
+      "description": "Two black line-art cards printed on pastel pink cotton. Original print concept supplied by Amir; plain back.",
+      "previewLabel": "Generated garment concept",
+      "motion": "fixtures/cards-pink-v3/manifest.json",
+      "back": "fixtures/cards-pink-v3/back.webp"
+    }
   ]
 }
